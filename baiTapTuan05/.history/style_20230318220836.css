@@ -328,7 +328,7 @@
     /* justify-content: center; */
     align-items: center;
 }
-.right__form-mess{
+.right__form-mess:nth-child(1){
     width: 340px;
     height:65px;
     background-color: rgb(210, 210, 210);
@@ -337,4 +337,7 @@
     padding:10px;
     margin-top: 10px;
     margin-left: 50px;
+}
+.right__form-mess:nth-child(3){
+    width: 50px;
 }

@@ -268,9 +268,7 @@
 
 .right__box1-header {
     display: flex;
-    justify-content: space-between;
     padding-top: 40px;
-    width: 413px;
 }
 
 .right__box1-title {
@@ -280,61 +278,27 @@
 .right__box1-title span{
     font-size: 15px;
     color: red;
-    width: 10px;
-    height: 10px;
-    padding: 4px;
-    border-radius: 100%;
-    background-color: rgb(240, 236, 236);
-   
+    width: ;
 }
 .right__box-add {
-    width: 71px;
-    height: 34px;
+    width: 81px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid red;
     border-radius: 5px;
-    /* margin-left: 140px; */
-    color: red;
+    margin-left: 140px;
 }
 
 .right__box2 {
     margin-right: 140px;
     border: 1px solid rgb(204, 201, 201);
     width: 413px;
-    /* margin-bottom: 20px; */
-}
-.right__box2-img{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+    /* display: flex; */
 }
 
 .right__chat-title {
     font-size: 25px;
     font-weight: 700;
-}
-
-.right__form--chatting{
-
-}
-.right__form-info{
-
-}
-.right__form-time{
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-}
-.right__form-mess{
-    width: 340px;
-    height:65px;
-    background-color: rgb(210, 210, 210);
-    display: flex;
-    align-items:center ;
-    padding:10px;
-    margin-top: 10px;
-    margin-left: 50px;
 }

@@ -325,16 +325,9 @@
 }
 .right__form-time{
     display: flex;
-    /* justify-content: center; */
-    align-items: center;
+    justify-content: center;
+    align
 }
 .right__form-mess{
-    width: 340px;
-    height:65px;
-    background-color: rgb(210, 210, 210);
-    display: flex;
-    align-items:center ;
-    padding:10px;
-    margin-top: 10px;
-    margin-left: 50px;
+
 }

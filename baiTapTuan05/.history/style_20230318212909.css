@@ -261,7 +261,7 @@
 .right {
     grid-area: right;
     background-color: #fff;
-    width: 412px;
+    width: 432px;
     height: 1020px;
     padding-left: 30px;
 }
@@ -270,7 +270,6 @@
     display: flex;
     justify-content: space-between;
     padding-top: 40px;
-    width: 413px;
 }
 
 .right__box1-title {
@@ -309,32 +308,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
 }
 
 .right__chat-title {
     font-size: 25px;
     font-weight: 700;
-}
-
-.right__form--chatting{
-
-}
-.right__form-info{
-
-}
-.right__form-time{
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-}
-.right__form-mess{
-    width: 340px;
-    height:65px;
-    background-color: rgb(210, 210, 210);
-    display: flex;
-    align-items:center ;
-    padding:10px;
-    margin-top: 10px;
-    margin-left: 50px;
 }
