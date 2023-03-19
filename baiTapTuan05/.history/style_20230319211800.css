@@ -19,7 +19,7 @@
     background-color: #fff;
     height: 1020px;
     width: 100px;
-    border-right: 1px solid rgb(204, 201, 201);
+    border: 1px solid rgb(204, 201, 201);
 }
 
 .left__menu {
@@ -45,7 +45,7 @@
     height: 1020px;
     width: 919px;
     padding-top: 50px;
-    border-right: 1px solid rgb(204, 201, 201);
+    border: 1px solid rgb(204, 201, 201);
     padding: 30px;
 }
 
@@ -78,13 +78,11 @@
     font-size: 15px;
     font-weight: 300;
 }
-
-.center__header-time span {
+.center__header-time  span{
     cursor: pointer;
     font-size: 40px;
     margin-right: 5px;
 }
-
 .center__header2 {
     cursor: pointer;
     display: flex;
@@ -124,7 +122,7 @@
     height: 460px;
     width: 834px;
     margin-top: 50px;
-    background-image: url(img/img_big.png);
+    background-image: url(/img/img_big.png);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -148,14 +146,12 @@
     color: #fff;
     border-radius: 5px;
 }
-
-.center__slide-btn-left span {
+.center__slide-btn-left span{
     cursor: pointer;
-    color: rgb(29, 215, 91);
+    color: rgb(29,215,91);
     margin-right: 5px;
     font-size: 44px;
 }
-
 .center__slide-btn-right {
     cursor: pointer;
     margin-right: 20px;
@@ -166,7 +162,7 @@
     height: 155px;
     width: 263px;
     margin-top: 50px;
-    background-image: url(img/img2.png);
+    background-image: url(/img/img2.png);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -183,7 +179,7 @@
     margin-right: 100px;
     width: 110px;
     height: 27px;
-    background-color: rgb(0, 0, 0, 0.5);
+    background-color: rgb(0, 0, 0,0.5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -209,7 +205,7 @@
     height: 155px;
     width: 263px;
     margin-top: 50px;
-    background-image: url(img/img1.png);
+    background-image: url(/img/img1.png);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     margin-right: 20px;
@@ -228,7 +224,7 @@
     margin-right: 100px;
     width: 110px;
     height: 27px;
-    background-color: rgb(0, 0, 0, 0.5);
+    background-color: rgb(0, 0, 0,0.5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -249,7 +245,7 @@
     height: 155px;
     width: 263px;
     margin-top: 50px;
-    background-image: url(img/img.png);
+    background-image: url(/img/img.png);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -266,35 +262,31 @@
     margin-right: 100px;
     width: 110px;
     height: 27px;
-    background-color: rgb(0, 0, 0, 0.5);
+    background-color: rgb(84, 90, 92);
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
     font-size: 10px;
 }
-
-.center__slide4-btn-left span {
+.center__slide4-btn-left span{
     cursor: pointer;
-    color: rgb(29, 215, 91);
+    color: rgb(29,215,91);
     font-size: 30px;
     margin-right: 5px;
 }
-
-.center__slide3-btn-left span {
+.center__slide3-btn-left span{
     cursor: pointer;
-    color: rgb(29, 215, 91);
+    color: rgb(29,215,91);
     font-size: 30px;
     margin-right: 5px;
 }
-
-.center__slide2-btn-left span {
+.center__slide2-btn-left span{
     cursor: pointer;
-    color: rgb(29, 215, 91);
+    color: rgb(29,215,91);
     font-size: 30px;
     margin-right: 5px;
 }
-
 .center__slide4-btn-right {
     cursor: pointer;
     margin-right: 20px;
@@ -331,8 +323,7 @@
     font-size: 25px;
     font-weight: 700;
 }
-
-.right__box1-title span {
+.right__box1-title span{
     cursor: pointer;
     font-size: 15px;
     color: red;
@@ -341,9 +332,8 @@
     padding: 4px;
     border-radius: 100%;
     background-color: rgb(240, 236, 236);
-
+   
 }
-
 .right__box-add {
     cursor: pointer;
     width: 71px;
@@ -364,8 +354,7 @@
     width: 413px;
     /* margin-bottom: 20px; */
 }
-
-.right__box2-img {
+.right__box2-img{
     cursor: pointer;
     display: flex;
     justify-content: space-between;
@@ -381,37 +370,33 @@
     margin-bottom: 30px;
 }
 
-.right__form--chatting {
+.right__form--chatting{
     cursor: pointer;
 
 }
-
-.right__form-info {
+.right__form-info{
     cursor: pointer;
 
 }
-
-.right__form-time {
+.right__form-time{
     cursor: pointer;
     display: flex;
     /* justify-content: center; */
     align-items: center;
 }
-
-.right__form-mess {
+.right__form-mess{
     cursor: pointer;
     width: 340px;
-    height: 65px;
-    background-color: rgb(242 242 242);
+    height:65px;
+    background-color: rgb(210, 210, 210);
     display: flex;
-    align-items: center;
-    padding: 10px;
+    align-items:center ;
+    padding:10px;
     margin-top: 10px;
     margin-left: 50px;
     margin-bottom: 25px;
 }
-
-.right__input-form {
+.right__input-form{
     cursor: pointer;
     display: flex;
     justify-content: space-around;
@@ -419,22 +404,20 @@
     margin-top: 10px;
 
 }
-
-.right__inp {
+.right__inp{
     cursor: pointer;
     outline: none;
     border: none;
     width: 250px;
     height: 40px;
     padding: 10px;
-    background-color: rgb(242 242 242);
+    background-color: rgb(215, 215, 218);
 }
-
-.right__input-typing {
+.right__input-typing{
     cursor: pointer;
     width: 330px;
     height: 40px;
-    background-color: rgb(242 242 242);
+    background-color: rgb(215, 215, 218);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -442,22 +425,19 @@
     border-radius: 5px;
 }
 
-.right__input-typing span {
+.right__input-typing span{
     cursor: pointer;
-    font-size: 20px;
+    font-size:20px;
 }
-
-.fa-regular {
+.fa-regular{
     cursor: pointer;
 
 }
-
-.fa-paper-plane {
+.fa-paper-plane{
     cursor: pointer;
     color: red;
 }
-
-.fa-paper-plane:hover {
+.fa-paper-plane:hover{
     cursor: pointer;
     opacity: 0.5;
 }
